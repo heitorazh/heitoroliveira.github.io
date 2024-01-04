@@ -1,0 +1,41 @@
+@media screen and(max-width: 760px){
+body{
+padding: 12px;
+
+
+}
+header{
+ flex-direction:column;
+}
+main{
+    flex-direction: column;
+}
+h1{
+font-size: 12px;
+padding: 16px;
+
+}
+h2{
+font-size: 11px;
+
+}
+
+form{
+margin: 3 auto;
+width:100% ;
+}
+input{
+  align-self: center;
+
+}
+img{
+    display: 1px;
+}
+ul{
+text-align: center;
+
+}
+button{
+  height: 30%;
+}
+}
