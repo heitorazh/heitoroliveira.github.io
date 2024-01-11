@@ -331,7 +331,7 @@ display: flex;
     }
     @media (max-width:991px){
         header{
-            padding: 18px 4%;
+            padding: 10px 4%;
         }
         section{
             padding: 50px 4%;
@@ -339,12 +339,13 @@ display: flex;
     }
     @media (max-width:768px){
         header{
-            padding: 11px 4%;
+            padding: 9px 4%;
         }
         #menu-icon{
             display: initial;
 
         }
+        
         header .navbar{
             position: absolute;
             top: -500px;
@@ -377,11 +378,18 @@ display: flex;
 
         }
         @media (max-width: 768px){
+            header{
+             size: 0px;
+            }
             .home-text{
                 padding-top: inherit;
             }
             .shop-container .box{
-                margin-top: 6rem;
+                margin-top: 4rem;
+                width: 20px;
+            }
+            .shop-container .box .box-img img{
+                width: 10px;
             }
             .heading h1{
                 font-size: 1.5rem;
