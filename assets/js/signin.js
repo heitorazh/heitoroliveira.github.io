@@ -42,6 +42,7 @@ function entrar(){
    
   if(usuario.value == userValid.user && senha.value == userValid.senha){
     window.location.href = "../html/seachengine.html"    
+    },2000
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
     
