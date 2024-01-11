@@ -1,4 +1,4 @@
-@media screen and(max-width: 760px){
+@media screen and (max-width: 760px){
 body{
 padding: 12px;
 
@@ -11,12 +11,12 @@ main{
     flex-direction: column;
 }
 h1{
-font-size: 12px;
-padding: 16px;
+font-size: 30px;
+padding: 4px;
 
 }
 h2{
-font-size: 11px;
+font-size: 30px;
 
 }
 
@@ -35,7 +35,5 @@ ul{
 text-align: center;
 
 }
-button{
-  height: 30%;
-}
+
 }
