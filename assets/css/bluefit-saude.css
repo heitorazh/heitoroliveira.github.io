@@ -339,7 +339,7 @@ display: flex;
     }
     @media (max-width:768px){
         header{
-            padding: 32px 4%;
+            padding: 20px 170px;
         }
         #menu-icon{
             display: initial;
@@ -389,7 +389,7 @@ display: flex;
                 width: 20px;
             }
             .shop-container .box .box-img img{
-                width: 30px;
+                width: 200px;
             }
             .heading h1{
                 font-size: 1.5rem;
