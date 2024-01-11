@@ -30,6 +30,7 @@ input{
 }
 img{
     display: 0px;
+    height: 10px;
 }
 ul{
 text-align: center;
