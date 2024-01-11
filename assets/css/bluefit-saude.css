@@ -318,7 +318,7 @@ display: flex;
 }
 @media (max-width:1150px){
     header{
-        padding: 18px 7%;
+        padding: 50px 7%;
     }
     section{
         padding: 50px 7%;
