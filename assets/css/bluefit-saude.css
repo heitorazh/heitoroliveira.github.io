@@ -377,7 +377,7 @@ display: flex;
          font-size: 1.2rem;
 
         }
-        @media and screen (max-width: 768px){
+        @media (max-width: 768px){
             header{
              size: 0px;
             }
@@ -389,7 +389,7 @@ display: flex;
                 width: 20px;
             }
             .shop-container .box .box-img img{
-                width: 10px;
+                width: 30px;
             }
             .heading h1{
                 font-size: 1.5rem;
