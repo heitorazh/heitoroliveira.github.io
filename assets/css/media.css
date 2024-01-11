@@ -29,7 +29,7 @@ input{
 
 }
 img{
-    display: 1px;
+    display: 0px;
 }
 ul{
 text-align: center;
