@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,700;1,800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+}
+body{
+margin: 4vh;
+
+
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.sidebar{
+      width: 25%;
+      border: apx solid #eee;
+      border-radius: 3px;
+      padding: 15px;
+     height: 92vh;
+     box-shadow: 0px 0px 3px gray;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+.data{
+    width: 73%;
+    border-radius: 3px;
+    height: 92vh;
+    overflow-y: auto;
+}
+.fa-circle{
+    color: orangered
+}
+.searchbar{
+   width: 100%;
+   background-color: #eee;
+   border-radius: 15px;
+   padding: 9px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.glass:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.social-icons{
+display: flex;
+align-items:center;
+justify-content: center;
+}
+.fa-brands{
+    font-size: 25px;
+    margin: 0 10px;
+    color: #eee;
+cursor: pointer;
+}
+.fa-brands:hover{
+ color: orangered;
+}
+.top{
+height: 60px;
+border-radius: 3px;
+background-color: #eee;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 15px;
+}
+.header{
+    height: 200px;
+    border-radius: 25px;
+     background-color: #220a0a;
+     margin: 3vh 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.header p{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+    #root{
+        width: 100%;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        grid-gap: 30px
+
+    }
+    .box{
+margin: 1px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+border: 1px solid #eee;
+border-radius: 5px;
+padding: 15px;
+
+    }
+    .img-box{
+        width: 150%;
+        height: 400px;
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+    }
+    .images{
+       max-height: 90%;
+       max-width: 90%;
+       object-fit: cover;
+       object-position: center;
+      border-radius: 15px;
+
+    }
+    .bottom{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+    }
+    h2{
+        font-size: 25px;
+        color: orangered;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+    button{
+        width: 90%;
+        position: relative;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        padding: 7px;
+        cursor: pointer;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    button:hover{
+        background-color: orangered;
+    
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    li{
+        width: 100%;
+        position: relative;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        padding: 7px;
+        cursor: pointer;
+        color: white
+    }
+    
+    #categorySelector, #clearFilterButton {
+        text-align: center;
+        width: 100%;
+        border: none;
+        padding: 9px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 10px;
+        cursor: pointer;
+        background-color: #6e6b6b;
+        color: #fff;
+        border-radius: 30px;
+        display: inline-block; /* Evita que os elementos ocupem a largura total */
+    }
+    @media only screen and (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+      
+        .sidebar {
+          width: 100%;
+          height: 300px;
+        }
+        .sidebox{
+
+        }
+        
+        .data {
+          width: 100%;
+          height: auto;
+        }
+      
+        .header {
+          height: 150px;
+        }
+      
+        #root {
+          grid-template-columns: 1fr;
+          grid-gap: 15px;
+        }
+      
+        .box {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      
+        .img-box {
+          height: px;
+        }
+      
+        .bottom {
+          height: auto;
+        }
+      
+        button {
+          width: 100%;
+        }
+      }
+
+    
